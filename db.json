@@ -1,0 +1,28 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "souman da",
+      "present address": "panskura",
+      "phone": 8649864798
+    },
+    {
+      "id": 2,
+      "name": "surajit",
+      "present address": "panskura",
+      "phone": 987498798
+    },
+    {
+      "id": 3,
+      "name": "andij",
+      "present address": "panskura",
+      "phone": 89764987
+    },
+    {
+      "id": 4,
+      "name": "dipraj",
+      "present address": "panskura",
+      "phone": 9874987
+    }
+  ]
+}

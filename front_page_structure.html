@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Base page</title>
+    <link rel="stylesheet" href="front_page_design.css">
+</head>
+<body>
+    <!--create a main page div-->
+    <div class="main_div">
+
+        <!--create a logo & title div-->
+        <div class="logo_title_div">
+            <!--create a logo div-->
+            <div class="logo_div">
+                <img id="logo">
+            </div>
+            <!--end of logo div-->
+
+            <!--create a logo div-->
+            <div class="title_div">
+                <h1>wellcome data base</h1>
+            </div>
+            <!--end of logo div-->
+        </div>
+        <!--end of a logo & title div-->
+
+        <!--create a button div-->
+        
+        <div class="button_div">
+            <nav>
+                <a href="#"><input id="get_button" type="button" value="get" onclick="get()"></a>
+                <a href="#"><input id="post_button" type="button" value="post" onclick="post()"></a>
+                <a href="#"><input id="update_button" type="button" value="update" onclick="update()"></a>
+                <a href="#"><input id="delete_button" type="button" value="delete" onclick="delete_function()"></a>
+            </nav>
+        </div>
+        <!--end of button div-->
+
+        <!--create a user input id text div-->
+        <div class="user_input_id_text_div">
+            <h2 id="text_box_title"> enter id number</h2>
+            <input id="id_text_box" class="text_box" type="text" placeholder="enter id number">
+        </div>
+        <!--end of user input id text div-->
+
+        <!--create a user input text box-->
+        <div class="user_input_text_box_div">
+            <h2 id="user_input_text_box_title">enter element</h2>
+            <textarea id="user_input_text_box" placeholder="enter the text"></textarea>
+        </div>
+        <!--end of user input text box-->
+
+        <!--create a output div-->
+        <div class="output_div">
+            <h2 id="output_box_title">your result</h2>
+            <textarea id="output_box" placeholder="output box" readonly></textarea>
+        </div>
+        <!--end of output div-->
+
+
+    </div>
+    <!--end of main page div-->
+    <script src="all_button_logic.js"></script>
+</body>
+</html>

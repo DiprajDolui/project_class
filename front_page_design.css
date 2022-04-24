@@ -1,0 +1,164 @@
+
+*,
+*::before,
+*::after{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*logo title div design*/
+
+.logo_title_div{
+    height: 5%;
+    width: 100%;
+    background-color: #fff;
+}
+
+    /*logo div design*/
+
+    .logo_div{
+        height: 5vh;
+        width: 15%;
+        float: left;
+        background-color: #fff
+    }
+    /*end of logo div design*/
+    /*logo design*/
+    #logo{
+    background: url(DD_GAMING2.jpg);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #4f16ed, 0px 0px 0px 5px #137dcf,
+    8px 8px 15px #1c5ac4, -8px -8px 15px rgb(26, 16, 224);
+    }
+    /*end of logo design*/
+
+    /*title div design*/
+    .title_div{
+        text-align: center;
+        background-color: #fff;
+        width: 100%;
+        height: 5vh;
+    }
+    /*end of title div design*/
+
+/*end of logo title div design*/
+
+/*button div design*/
+.button_div{
+    text-align: center;
+    padding: 5%;
+    background-color: #fff;
+    height: 1vh;
+    width: 100%;
+    justify-content: space-around;
+}
+    /*button position design using nav*/
+    nav{
+        width: 100vw;
+        display: flex;
+        /*align-items: center;*/
+        justify-content: space-around;
+        margin: auto;
+
+    }
+    /*end of button position design using nav*/
+
+    a{
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins',sans-serif;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: o 10px;
+    }
+    /*button line design*/
+    a::after{
+        content: "";
+        position: absolute;
+        background-color: #1c5ac4;
+        height: 3px;
+        width: 0;
+        left: 0%;
+        bottom: -5px;
+        transition: 0.5s;
+
+    }
+    a:hover::after{
+        width: 100%;
+    }
+    /*end of button line design*/
+
+    /*get button design*/
+    #get_button{
+        box-shadow: none;
+        border-color: #fff;
+    }
+    /*end of get button design*/
+
+    /*post button design*/
+    #post_button{
+        box-shadow: none;
+        border-color: #fff;
+        background-color: #fff;
+    }
+    /*end of post button design*/
+
+    /*update button design*/
+    #update_button{
+        box-shadow: none;
+        border-color: #fff;
+        background-color: #fff;
+    }
+    /*end of update button design*/
+
+    /*delete button design*/
+    #delete_button{
+        box-shadow: none;
+        border-color: #fff;
+        background-color: #fff;
+    }
+    /*end of delete button design*/
+
+/*end of button div design*/
+
+/*user input id text box div design*/
+.user_input_id_text_div{
+    text-align: center;
+    background-color: #fff;
+    height: 10vh;
+    width: 100%;
+}
+    /*id text box design*/
+    .text_box{
+        text-align: center;
+    }
+    /*end of id text box design*/
+/*end of user input id text box design*/
+
+/*user text box design*/
+.user_input_text_box_div{
+    text-align: center;
+    background-color: #fff;
+}
+/*user input text box design*/
+#user_input_text_box{
+    height: 15vh;
+    width: 70%;
+}
+/*end of user input text box design*/
+/*end of user text box design*/
+
+/*output box design*/
+.output_div{
+    text-align: center;
+    background-color: #fff;
+}
+#output_box{
+    height: 32vh;
+    width: 70%;
+}
+/*end of output box design*/
